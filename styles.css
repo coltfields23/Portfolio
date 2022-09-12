@@ -35,7 +35,7 @@ body {
     padding: 1vw 1vw;
     font-weight: 800;
     background: linear-gradient(-140deg, rgb(255, 0, 0), rgb(255, 60, 0), red, rgb(255, 60, 0), red )
-
+    
 }   
 
 #projects {
@@ -68,8 +68,22 @@ body {
     margin-left:20% ;
     margin-right:20% ;
     margin-bottom: 30px;
-    height: 20%;
+    
+}
 
+
+.images {
+    width: 40vw;
+    text-align: center;
+    margin: 0% auto;
+}
+.projectheaders {
+    font-size:xx-large;
+}
+
+.paragraph {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .projbutton {
