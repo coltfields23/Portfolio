@@ -119,18 +119,34 @@ body {
     box-shadow:0px 0px 5px 5px rgb(255, 154, 23);
     margin-left:1vw ;
     margin-right:1vw ;
-    border:3px 3px rgb(0, 0, 0);
+    border:1px solid rgb(255, 255, 255);
     border-radius: 7px;
 }
 .projectbutton:hover{
     background-color: rgba(255, 174, 0, 0.973);
     box-shadow:0px 0px 10px 10px rgb(255, 154, 23);
     width:16%;
+    color: white;
   }
 
 #logo {
     width:50px;
     margin-left: 10px;
+}
+
+#logo:hover {
+    width:50px;
+    margin-left: 10px;
+    -webkit-filter: drop-shadow(2px 2px 2px orange)
+    drop-shadow(-2px 2px 2px orange)
+    drop-shadow(2px -2px 2px orange)
+    drop-shadow(-2px -2px 2px orange);
+    
+    filter: drop-shadow(1px 1px 1px orange)
+    drop-shadow(-1px 1px 1px orange)
+    drop-shadow(1px -1px 1px orange)
+    drop-shadow(-1px -1px 1px orange);
+    
 }
 
 #navbar {
@@ -215,6 +231,32 @@ text-decoration: none;
     drop-shadow(2px -2px 3px orange)
     drop-shadow(-2px -2px 3px orange);
 }
+.glowtranscontacts:hover {
+    width: 5%;
+    padding: 1%;
+    -webkit-filter: drop-shadow(2px 2px 3px orange)
+    drop-shadow(-2px 2px 3px orange)
+    drop-shadow(2px -2px 3px red)
+    drop-shadow(-2px -2px 3px red);
+    
+    filter: drop-shadow(2px 2px 3px orange)
+    drop-shadow(-2px 2px 3px orange)
+    drop-shadow(2px -2px 3px red)
+    drop-shadow(-2px -2px 3px red);
+}
+.textdecor:hover {
+    color: rgb(17, 6, 0);
+    -webkit-filter: drop-shadow(2px 2px 3px orange)
+    drop-shadow(-2px 2px 3px orange)
+    drop-shadow(2px -2px 3px red)
+    drop-shadow(-2px -2px 3px red);
+    
+    filter: drop-shadow(2px 2px 3px maroon)
+    drop-shadow(-2px 2px 3px black)
+    drop-shadow(2px -2px 3px black)
+    drop-shadow(-2px -2px 3px black);
+}
+
 .fire {
     text-shadow:
       0 0 20px crimson,
@@ -328,6 +370,7 @@ text-decoration: none;
         drop-shadow(2px -2px 3px orange)
         drop-shadow(-2px -2px 3px orange);
     }
+    
     .projectbutton:hover{
         background-color: rgba(255, 174, 0, 0.973);
         box-shadow:0px 0px 10px 10px rgb(255, 154, 23);
