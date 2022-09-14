@@ -26,6 +26,8 @@ body {
 
 .center {
     text-align: center;
+    color:rgb(255, 111, 0);
+    text-shadow: 0px 0px 8px rgb(255, 102, 0)
 }
 
 .topbuttons {
@@ -48,6 +50,9 @@ body {
     text-shadow: 0px 0px 8px rgb(255, 166, 0);
     color:rgb(255, 111, 0);
 }
+#projectstitle {
+    font-size: 300%;
+}
 
 #skills {
     color: rgb(0, 0, 0);
@@ -55,10 +60,17 @@ body {
     text-align: center;
 }
 
+#skillstitle {
+    font-size: 300%;
+}
+
 #contact {
     color: rgb(0, 0, 0);
     margin-top: 1000px;
     text-align: center;
+}
+#contacttitle {
+    font-size: 300%;
 }
 
 .textdecor {
@@ -107,9 +119,13 @@ body {
     box-shadow:0px 0px 5px 5px rgb(255, 154, 23);
     margin-left:1vw ;
     margin-right:1vw ;
+    border:3px 3px rgb(0, 0, 0);
+    border-radius: 7px;
 }
 .projectbutton:hover{
     background-color: rgba(255, 174, 0, 0.973);
+    box-shadow:0px 0px 10px 10px rgb(255, 154, 23);
+    width:16%;
   }
 
 #logo {
@@ -118,7 +134,7 @@ body {
 }
 
 #navbar {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     position:fixed;
     width:100%;
     top: 0;
@@ -140,13 +156,55 @@ body {
 
 .navbuttons {
 margin: 2vw;
-color:white;
+color:rgb(255, 142, 37);
 text-decoration: none;
 }
+
+.navbuttons:hover {
+    margin: 2vw;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    -webkit-filter: drop-shadow(2px 2px 2px orange)
+    drop-shadow(-2px 2px 2px orange)
+    drop-shadow(2px -2px 2px orange)
+    drop-shadow(-2px -2px 2px orange);
+    
+    filter: drop-shadow(2px 2px 2px orange)
+    drop-shadow(-2px 2px 2px orange)
+    drop-shadow(2px -2px 2px orange)
+    drop-shadow(-2px -2px 2px orange);
+    }
+
 
 
 
 .glowtrans {
+    -webkit-filter: drop-shadow(2px 2px 3px orange)
+    drop-shadow(-2px 2px 3px orange)
+    drop-shadow(2px -2px 3px orange)
+    drop-shadow(-2px -2px 3px orange);
+    
+    filter: drop-shadow(2px 2px 3px orange)
+    drop-shadow(-2px 2px 3px orange)
+    drop-shadow(2px -2px 3px orange)
+    drop-shadow(-2px -2px 3px orange);
+}
+.glowtransskills {
+    padding:5%;
+    width: 7%;
+    -webkit-filter: drop-shadow(2px 2px 3px red)
+    drop-shadow(-2px 2px 3px red)
+    drop-shadow(2px -2px 3px red)
+    drop-shadow(-2px -2px 3px red);
+    
+    filter: drop-shadow(2px 2px 2px red)
+    drop-shadow(-2px 2px 2px orange)
+    drop-shadow(2px -2px 2px yellow)
+    drop-shadow(-2px -2px 2px orange);
+}
+.glowtranscontacts {
+    width: 5%;
+    padding: 1%;
     -webkit-filter: drop-shadow(2px 2px 3px orange)
     drop-shadow(-2px 2px 3px orange)
     drop-shadow(2px -2px 3px orange)
@@ -204,6 +262,7 @@ text-decoration: none;
       10px -10px 10px yellow; 
     }
   }
+  
 /* phone screen adapt */
 @media screen and (max-width: 600px){
     #navbar {
@@ -212,8 +271,8 @@ text-decoration: none;
     #header1 {
         color:rgb(0, 0, 0);
         text-align:center;
-        font-size:14vw;
-        margin-top:50vw;
+        font-size:16vw;
+        margin-top:60vw;
     }
     .projectsex {
         border: 10px solid rgb(0, 0, 0);
@@ -243,4 +302,36 @@ text-decoration: none;
         margin-top: 700px;
         text-align: center;
     }
+    .glowtransskills {
+        padding:5%;
+        width: 20%;
+        -webkit-filter: drop-shadow(2px 2px 2px yellow)
+        drop-shadow(-2px 2px 2px yellow)
+        drop-shadow(2px -2px 2px red)
+        drop-shadow(-2px -2px 2px red);
+        
+        filter: drop-shadow(2px 2px 2px yellow)
+        drop-shadow(-2px 2px 2px yellow)
+        drop-shadow(2px -2px 2px red)
+        drop-shadow(-2px -2px 2px red);
+    }
+    .glowtranscontacts {
+        padding: 5%;
+        width: 15%;
+        -webkit-filter: drop-shadow(2px 2px 3px orange)
+        drop-shadow(-2px 2px 3px orange)
+        drop-shadow(2px -2px 3px orange)
+        drop-shadow(-2px -2px 3px orange);
+        
+        filter: drop-shadow(2px 2px 3px orange)
+        drop-shadow(-2px 2px 3px orange)
+        drop-shadow(2px -2px 3px orange)
+        drop-shadow(-2px -2px 3px orange);
+    }
+    .projectbutton:hover{
+        background-color: rgba(255, 174, 0, 0.973);
+        box-shadow:0px 0px 10px 10px rgb(255, 154, 23);
+        width:27%;
+      }
+
 } 
