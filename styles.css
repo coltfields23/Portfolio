@@ -19,11 +19,27 @@ body {
 #header2 {
     color:rgb(255, 111, 0);
     text-align:center;
-    font-size: small;
+    font-size: medium;
     margin:0 20%;
-    text-shadow: 0px 0px 8px yellow
+    text-shadow: 0px 0px 8px yellow;
+    margin-top:5%;
 }
+#header3{
+    font-size:200%;
+}
+#aboutme { 
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 120%;
 
+}
+#aboutmesection {
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-right: 23%;
+    margin-left: 23%;
+    box-shadow: 0px 0px 6px 6px rgb(255, 102, 0);
+}
 .center {
     text-align: center;
     color:rgb(255, 111, 0);
@@ -42,7 +58,7 @@ body {
 
 #projects {
     color:rgb(0, 0, 0);
-    margin-top: 1000px;
+    margin-top: 50%;
     text-align: center;
 }
 
@@ -56,7 +72,7 @@ body {
 
 #skills {
     color: rgb(0, 0, 0);
-    margin-top: 1000px;
+    margin-top: 50%;
     text-align: center;
 }
 
@@ -66,7 +82,7 @@ body {
 
 #contact {
     color: rgb(0, 0, 0);
-    margin-top: 1000px;
+    margin-top: 50%;
     text-align: center;
 }
 #contacttitle {
@@ -313,8 +329,9 @@ text-decoration: none;
     #header1 {
         color:rgb(0, 0, 0);
         text-align:center;
-        font-size:16vw;
-        margin-top:60vw;
+        font-size:15vw;
+        margin-top:30vw;
+        margin-bottom: 30%;
     }
     .projectsex {
         border: 10px solid rgb(0, 0, 0);
@@ -376,5 +393,18 @@ text-decoration: none;
         box-shadow:0px 0px 10px 10px rgb(255, 154, 23);
         width:27%;
       }
-
+    #aboutmesection {
+        border: 10px solid rgb(0, 0, 0);
+        border-radius: 30px;
+        margin-right: 5%;
+        margin-left: 5%;
+        box-shadow: 0px 0px 6px 6px rgb(255, 102, 0);}
+    #header2 {
+        color:rgb(255, 111, 0);
+        text-align:center;
+        font-size: small;
+        margin:0 5%;
+        text-shadow: 0px 0px 8px yellow;
+        margin-top:20%;
+    }
 } 
