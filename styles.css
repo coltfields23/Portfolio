@@ -47,13 +47,13 @@ body {
 }
 
 .topbuttons {
+    justify-self: center;
     border:3px solid rgb(0, 0, 0);
     box-shadow: 0px 0px 10px red;
     background-color: rgb(206, 3, 3);
     padding: 1vw 1vw;
     font-weight: 800;
     background: linear-gradient(-140deg, rgb(255, 0, 0), rgb(255, 60, 0), red, rgb(255, 60, 0), red )
-    
 }   
 
 #projects {
@@ -148,12 +148,15 @@ body {
 
 #logo {
     width:50px;
-    margin-left: 10px;
+}
+
+.logoC {
+    position: absolute;
+    left: 10px;
 }
 
 #logo:hover {
     width:50px;
-    margin-left: 10px;
     -webkit-filter: drop-shadow(2px 2px 2px orange)
     drop-shadow(-2px 2px 2px orange)
     drop-shadow(2px -2px 2px orange)
@@ -175,6 +178,7 @@ body {
     right: 0;
     height: 60px;
     display: flex;
+    justify-content: center;
     align-items: center;
     z-index: 1;
 }
@@ -184,7 +188,10 @@ body {
 }
 
 #listofbuttons {
-    margin: 70px
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 .navbuttons {
